@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Tytuł</h1>
+    <h6>mneijszy nagłowek</h6>
+    <p>zwykły tekst</p>
+    <b>Pogrubionu tekst</b>
+    <hr>
+    <u>podkreslony teskt</u>
+    <br><i>pochylony tekst</i>
+    <br><p>Mozemy <u>zagnieżdżać znaczniki</u> w taki sposób</p>
+    <p>Lorem ipsum dolor sit amet.<div>Lorem, ipsum.</div> Lorem, ipsum dolor. </p>
+</body>
+</html>
