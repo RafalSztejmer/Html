@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="action.php" method="post" autocomplete="on">
+        <p>
+            <label for="username">Nazwa uzytkownika</label>
+            <input id="text" name="username">
+        
+        </p>
+        <p>
+            <label for="password">Hasło</label>
+            <input id="password" name="password" placeholder="wpisz hasło">
+        </p>
+        <p>
+            <label for="country">Kraj</label>
+            <input id="text" name="country" minlength="4" maxlength="10">
+        </p>
+
+        <p>
+            <input type="radio" name="colour" value="czerwony" id="czerwony">
+            <label for="czerwony">Czerwony</label>
+            <input type="radio" name="colour" value="zielony" id="zielony">
+            <label for="zielony">Zielony</label>
+            <input type="radio" name="colour" value="niebieski" id="niebieski">
+            <label for="niebieski">Niebieski</label>
+        </p>
+
+        <p>
+            <input type="checkbox" name="hobby" id="sport">
+            <label for="sport">Sport</label>
+            <input type="checkbox" name="hobby" id="cinema">
+            <label for="cinema">Kino</label>
+            <input type="checkbox" name="hobby" id="cars">
+            <label for="cars">Samochody</label>
+        </p>
+
+        <p>
+            <select name="colours3" id="colours3">
+                <option value="red">czerwony</option>
+                <option value="green">zielony</option>
+                <option value="blue">niebieski</option>
+                <optgroup label="niestandardowe kolory">
+                    <option value="yellow">żółty</option>
+
+                </optgroup>
+            </select>
+        </p>
+        <p><input type="button" value="wyslij"></p>
+        <button type="submit">Wyślij</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+</html>
