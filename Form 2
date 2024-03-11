@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .telephone{
+            border: 2px dotted grey;
+            border-radius: 2ch;
+            background-color: aquamarine;        
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="telephone">
+        <h4>Telefon</h4>
+        <ul>
+            <li><a href="#telefon">telefon</a></li>
+        </ul>
+    </nav>
+    <form action="action.php" method="post" autocomplete="on" enctype="multipart/form-data">
+
+        <p>
+            User: <input type="text" name="username">
+        </p>
+
+        <p>
+            Email: <input type="email" name="email">
+        </p>
+
+        <p>
+            Number: <input type="number" minlength="5" maxlength="50">
+        </p>
+
+        <p>
+            Hidden: <input type="hidden" name="data-id">
+        </p>
+        
+        <!-- wymagany atrybut enctype-->
+        <p>
+            <input type="file" name="pictures" accept="image/png, image/jpeg">
+        </p>
+
+        <p>
+            <textarea name="description" id="description" cols="30" rows="10" maxlength="200    ">Krótki opis</textarea>
+        </p>
+
+        <p>
+            <input type="radio" name="colour" value="czerwony" id="czerwony">
+            <label for="czerwony">Czerwony</label>
+            <input type="radio" name="colour" value="zielony" id="zielony">
+            <label for="zielony">Zielony</label>
+            <input type="radio" name="colour" value="niebieski" id="niebieski">
+            <label for="niebieski">Niebieski</label>
+        </p>
+
+        <p>
+            <input type="checkbox" name="hobby" id="sport">
+            <label for="sport">Sport</label>
+            <input type="checkbox" name="hobby" id="cinema">
+            <label for="cinema">Kino</label>
+            <input type="checkbox" name="hobby" id="cars">
+            <label for="cars">Samochody</label>
+        </p>
+
+        <p>
+            <select name="colours3" id="colours3">
+                <option value="red">czerwony</option>
+                <option value="green">zielony</option>
+                <option value="blue">niebieski</option>
+                <optgroup label="niestandardowe kolory">
+                    <option value="yellow">żółty</option>
+
+                </optgroup>
+            </select>
+        </p>
+
+        <p>
+            <input type="color" name="color" id="user-color">
+
+        </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis ratione corporis inventore sunt exercitationem magnam, est quas autem quaerat aliquid obcaecati voluptates minima, fugit mollitia laborum. Distinctio, expedita? Unde non reprehenderit sed. Dolore ipsum maiores quaerat laudantium corrupti saepe laboriosam, atque eum asperiores repudiandae similique nihil nulla impedit architecto dolor numquam, quis ea esse iusto, illo modi voluptatem eveniet! Illo officia deleniti dolor quam! Alias rerum, excepturi fugit ipsa aspernatur ipsam libero quidem temporibus dicta a accusantium pariatur laboriosam dignissimos dolore tempora tenetur explicabo repellat molestias maiores numquam. Placeat reprehenderit iste ea inventore repudiandae deleniti saepe tempore soluta facilis repellat, deserunt ipsa illo eos animi expedita nam autem ex consequatur aspernatur nisi alias assumenda qui? Minus doloremque cumque, molestias ex nam laboriosam quia! Repellendus aut voluptate consequuntur asperiores hic quis recusandae ab voluptates numquam officia eius, incidunt, veritatis placeat voluptas laboriosam excepturi, dolorum reiciendis perferendis est autem itaque explicabo possimus nisi! Debitis odit fuga architecto unde tenetur excepturi commodi quia, distinctio aliquam blanditiis sed qui tempora! Dolore, eligendi atque qui nostrum deleniti dolores sed voluptate. In nihil quibusdam voluptas obcaecati deserunt quae explicabo laudantium repudiandae. Eius blanditiis labore placeat voluptas, tenetur, perferendis, adipisci id autem cumque aperiam harum ea ut!</p>
+        <p>
+            <input type="date" name="date" id=""><br>
+            <input type="datetime-local" name="datetime-local" id="">
+
+        </p>
+
+        <p>
+            <fieldset>
+                <legend>legedna dla slidera</legend>
+                <input type="range" name="age" id="">
+            </fieldset>
+        </p>
+
+        <p>
+           Telefon: <input type="tel" name="telephone" id="telefon">
+        </p>
+
+        Url: <input type="url" name="url" pattern="https://.*" id=""><br><hr>
+        <input type="submit" value="Wyślij">
+        <button type="submit"> wyslij </button>
+        <button type="reset">reset</button>
+
+    </form>
+</body>
+</html>
