@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- pre formatowanie tekstu -->
+    <p>
+        <pre>
+        Lorem ipsum dolor sit       amet consectetur, adipisicing elit. 
+        Eaque non ut vero molestiae sed, libero ex. 
+        Reiciendis possimus ad ducimus.
+        </pre>
+    </p>
+
+    <!-- br -->
+    <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br>
+        Cum at deleniti illo exercitationem placeat similique eius animi,<br>
+        quod dolorum doloribus!
+    </p>
+    
+    <!-- mark -->
+    <p>
+        Lorem ipsum dolor sit amet <mark>consectetur</mark> <br>
+        adipisicing elit. Ea, sunt!
+    </p>
+
+    <!-- strong  -->
+    <p>
+        <strong>Rafał Sztejmer</strong> opis tej osoby
+
+    </p>
+
+     <!-- em emfaza pochylony semnatycznie znaczący, mniejsza waga niż strong (dla tekstów czytanych) -->
+    <p>
+        <em>Lorem, ipsum.</em>
+    </p>
+
+    <!-- abbr - skrót --> 
+    <p>
+        <abbr title="Hyper Text Markuo Language">HTML</abbr>
+    </p>
+
+    <!-- sub -->
+    <p>
+        Lorem <sub>ipsum</sub> dolor sit amet consectetur <sup>adipisicing</sup>.
+    </p>
+
+    <!-- q - cytat-->
+    <p>
+        <q cite="https://exputer.com/guides/elden-ring-rivers-of-blood-build/">
+            Elden Ring Rivers of Blood Build makes great use of one of the strongest katanas in the game and certain incantations. Read to find out more! </q>
+    </p>
+
+    <blockquote cite="https://exputer.com/guides/elden-ring-rivers-of-blood-build/">
+            Elden Ring Rivers of Blood Build makes great use of one of the strongest katanas in the game and certain incantations. Read to find out more!
+    </blockquote>
+</body>
+</html>
