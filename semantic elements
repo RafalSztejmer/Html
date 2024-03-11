@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">home</a></li>
+                <li><a href="#">o nas</a></li>
+                <li><a href="#">kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="blog-articles">
+            <article>
+                <header>
+                    <h1>tytuł artykułu</h1>
+                    <p>
+                        Data publikacji: <time datetime="2024-12-24">24 grudnia</time>
+                        <span class="author">
+                            <a href="#">Kowalski</a>
+                        </span>
+                    </p>
+                </header>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum ad voluptas at praesentium placeat quis magnam illum voluptates facilis rem? Cupiditate, optio reprehenderit. Ab temporibus omnis ratione corporis quam labore magnam in sit enim! Molestiae tempora et totam, animi repellat perferendis, recusandae in tempore quas tenetur ullam minus est explicabo?</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic dicta, provident dignissimos officiis incidunt est voluptatem, obcaecati neque cupiditate ducimus nisi unde earum nam accusantium, iure voluptate deserunt vel? Ut atque esse soluta, eaque, ipsa ad voluptatibus quibusdam aut dolores pariatur iusto fugiat. Atque harum accusamus beatae quaerat. Aperiam, unde?</p>
+                <section class="comments">
+                    <article class="comment">
+                        <header>
+                            <p>
+                                Data publikacji: <time datetime="2024-12-31">31 grudbia</time>
+                                <a href="#">xyz</a>
+                            </p>
+                        </header>
+                        <p>Komentarz 1: Lorem ipsum dolor sit amet.</p>
+
+                    </article>
+                    <article class="comment">
+                        <p>Komentarz 1: Lorem ipsum dolor sit amet.</p>
+                        <footer>
+                            <p>
+                                Data publikacji: <time datetime="2024-12-31">31 grudbia</time>
+                                <a href="#">xyz</a>
+                            </p>
+                        </footer>
+                        
+
+                    </article>
+                    <article>
+                        <header>
+                            <h1>tytuł artykułu 2</h1>
+                            <p>
+                                Data publikacji: <time datetime="2024-12-24">24 grudnia</time>
+                                <span class="author">
+                                    <a href="#">Kowalski</a>
+                                </span>
+                            </p>
+                        </header>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum ad voluptas at praesentium placeat quis magnam illum voluptates facilis rem? Cupiditate, optio reprehenderit. Ab temporibus omnis ratione corporis quam labore magnam in sit enim! Molestiae tempora et totam, animi repellat perferendis, recusandae in tempore quas tenetur ullam minus est explicabo?</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic dicta, provident dignissimos officiis incidunt est voluptatem, obcaecati neque cupiditate ducimus nisi unde earum nam accusantium, iure voluptate deserunt vel? Ut atque esse soluta, eaque, ipsa ad voluptatibus quibusdam aut dolores pariatur iusto fugiat. Atque harum accusamus beatae quaerat. Aperiam, unde?</p>
+                        </article>
+                </section>
+
+
+            </article>
+
+        </section>
+        <section class="top-articles">
+            <h4>Najpopularniejsze artykuły</h4>
+            <article>
+                Lorem ipsum dolor sit amet.
+                <a href="#">Czytaj więcej</a>
+            </article>
+            <article>
+                Lorem ipsum dolor sit amet.
+                <a href="#">Czytaj więcej</a>
+            </article>
+            <article>
+                Lorem ipsum dolor sit amet.
+                <a href="#">Czytaj więcej</a>
+            </article>
+
+        </section>
+    </main>
+    <aside>
+        <section class="widged search">
+            <input type="text" value="search">
+        </section>
+        <section class="wideget menu">
+            <h4>Kategorie</h4>
+            <ul>
+                <li><a href="#1">Kategoria 1</a></li>
+                <li><a href="#2">Kategoria 2</a></li>
+                <li><a href="#3">Kategoria 3</a></li>
+            </ul>
+        </section>
+
+    </aside>
+
+    <footer>
+        <p>Przykład strony</p>
+    </footer>
+
+</body>
+</html>
