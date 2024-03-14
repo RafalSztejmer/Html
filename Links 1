@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!--http://127.0.0.1:5500/ localhost adres na naszym komputerze-->
+
+    <!--link bezwzględny - absolutny-->
+    <a href="https://www.facebook.com/"></a>
+
+
+    <!--link względny - relative-->
+    <a href="http://127.0.0.1:5500/zadania/atrybuty.html">atrybuty</a>
+
+
+    <!-- ../ odwołanie do katalogu wyżej-->
+    <a href="../listy.html">listy</a>
+
+    <a href="zadania/Zadanie 3.html">zadanie</a>
+
+
+</body>
+</html>
