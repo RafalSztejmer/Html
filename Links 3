@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href="tel:88">tel</a><br>
+    
+    <a href="mailto:rafsztejmer@wp.pl">rafsztejmer@wp.pl</a>
+
+    <a href="#">pusty link</a><br>
+
+    <a href="#chapter1">Rodział 1</a>
+    <a href="#chapter2">Rozdział 2</a>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut voluptatem enim porro facere nulla molestiae et. Saepe officia harum optio aliquam natus veniam voluptates, ullam nostrum doloremque, quae alias necessitatibus illum sapiente vero dolorum rem voluptatum quasi aspernatur at laudantium deserunt consequuntur possimus qui recusandae. Expedita consectetur, repellendus enim esse at dicta ut ullam corporis. Aperiam voluptates corporis expedita ipsa corrupti? Ad incidunt dolor nulla cupiditate placeat? Neque cupiditate laudantium, illo maxime facere veritatis placeat itaque sed veniam enim perferendis! Similique, dignissimos eveniet praesentium rem suscipit doloremque velit quaerat provident laboriosam eos sequi aut veniam excepturi at ducimus voluptate ad quam beatae! Voluptas iste voluptates ut commodi excepturi aut facilis officiis ad reprehenderit, ipsum, eum, cupiditate quisquam dolores enim facere quaerat? Eveniet fuga ipsum quibusdam quos, veniam ad, obcaecati corporis totam accusamus commodi molestias. Quis exercitationem, quaerat consequuntur est magnam culpa? Temporibus perferendis quos optio exercitationem voluptatum consequatur modi, harum odit iusto autem voluptates voluptate eius nemo non aliquid delectus animi voluptas enim fugit quia nam a rem odio veritatis? Amet laboriosam cumque odit perferendis pariatur, ipsa dolores vero, officiis, aperiam animi exercitationem eaque deserunt harum. Natus ducimus eveniet inventore. Dignissimos corrupti, dolore, veniam suscipit voluptatibus hic explicabo eum officiis qui amet aut, animi quasi. Distinctio dignissimos hic tempora vel qui, error labore soluta excepturi eum aut officiis facilis optio fugit debitis mollitia nihil, iure deserunt sequi! Illo similique, deserunt possimus eligendi ab facere, doloribus soluta nobis eius blanditiis nam rerum unde veritatis? Voluptates aliquam doloribus incidunt inventore commodi tempora veritatis consequatur maxime eum. Inventore voluptate numquam fuga beatae odio laudantium eius magni ea aut. Rem similique cupiditate dolorum aspernatur praesentium nisi. Saepe fugiat assumenda itaque veniam perferendis, sint, in laboriosam repellendus magnam dolore fuga ipsa exercitationem architecto doloribus aspernatur, laudantium dolores dignissimos accusamus at officia labore! Atque, ab laborum!</p>
+
+    <h3 id="chapter1"> Nagłówek rozdział 1</h3>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, consequuntur ab eum necessitatibus quae ipsam? Quia quibusdam nobis obcaecati atque aperiam voluptatem quas voluptas quaerat id repellat incidunt harum inventore excepturi tempore dignissimos, ea cum dicta blanditiis eligendi quo veniam accusantium! Ratione, id in quo molestiae, adipisci laudantium, blanditiis perspiciatis nemo consectetur ut at? Nemo, blanditiis itaque reiciendis, ad quaerat sequi at impedit hic dolore error, aut natus nihil consectetur dolorum. Fuga perferendis similique consequuntur, aspernatur laboriosam ratione eum accusamus sunt porro excepturi tenetur neque vel asperiores doloribus, sit nostrum rerum sint? Minus repellat iste minima, nam labore ullam id delectus quasi necessitatibus. Tenetur vel perferendis dolores repudiandae porro commodi minus illo iusto aliquid voluptatibus, non perspiciatis nihil numquam et dolorem odio distinctio obcaecati quae deleniti. Eius dolorem aut quam, in a assumenda expedita vel, possimus illum nostrum cum iure perferendis? Accusantium voluptatem consectetur itaque a aperiam cum eligendi culpa! Porro, fuga similique architecto facere id ex, itaque sint soluta repellendus reprehenderit molestiae rem placeat ad non quo accusantium molestias sed esse vel magni assumenda expedita et error explicabo! Nesciunt, perspiciatis? Sunt sapiente totam impedit incidunt ut nulla cum veritatis pariatur obcaecati distinctio unde reiciendis veniam, assumenda illo. Praesentium aspernatur unde laboriosam officia ducimus placeat provident atque voluptates architecto aut, qui labore laudantium iure vel consequatur vero numquam nemo dolorem maiores corporis. Facere nesciunt at, placeat doloribus odit dolorem beatae ducimus recusandae modi? Blanditiis rem commodi libero earum, repellendus sit quas in veniam ullam hic omnis error sapiente tempore esse quasi, ab harum excepturi atque eum. Illum mollitia tempora quisquam inventore numquam hic impedit vero? Laborum, ea corrupti. Iure corrupti debitis possimus amet consectetur pariatur similique, eum nihil a alias tempore corporis esse ab. Iure maxime saepe perferendis? Inventore minima voluptatibus quidem cum nobis asperiores odit sapiente tempora repudiandae. Veniam!</p>
+
+    <h3 id="chapter2">Nagłówek rozdział 2</h3>
+</body>
+</html>
