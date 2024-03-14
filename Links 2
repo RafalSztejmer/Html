@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="author" content="Rafał">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ćwiczenie 1</title>
+</head>
+<body>
+    <h1>Nagłówek h1</h1>
+    <p>Lorem, <i>ipsum</i> dolor sit amet consectetur adipisicing.</p>
+    <div>
+        Lorem <i>ipsum</i> dolor sit amet.
+        Lorem ipsum <b>dolor</b> sit amet <u>consectetur</u> adipisicing.
+        
+    </div>
+    <a href="https://www.youtube.com/">youtube</a>
+    <br>
+
+    <p><a href="/Zadania/formularze.html">Link do formularza</a></p>
+
+    <img src="https://cdn.pixabay.com/photo/2023/11/30/07/04/shetland-sheepdog-8420917_640.jpg" 
+         alt="obrazek" width="150">
+</body>
+</html>
