@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #cars {list-style-type: none;}
+</style>
+<body>
+    <h1>Samochodu:</h1>
+    <ul id="cars"><!--lista nieuporządkowana-->
+        <li>Dodge</li>
+        <li>Mercedes</li>
+        <li>Audi</li>
+    </ul>
+    
+    <h3>Owoce</h3>
+    <ol><!--lista uporządkowana-->
+        <li>Jabłko</li>
+        <li>cytryna</li>
+    </ol>
+
+    <h3>Owoce</h3>
+    <ol type="A">
+        <li>Jabłko</li>
+        <li>cytryna</li>
+    </ol>
+
+    <h3>Owoce</h3>
+    <ol type="I">
+        <li>Jabłko</li>
+        <li>cytryna</li>
+    </ol>
+
+    <h3>Producenci</h3>
+    <ul>
+        <li>
+            Dodge:
+            <ol>
+                <li>Viper</li>
+                <li>Charger</li>
+            </ol>
+        </li>
+        <li>
+            Mercedes:
+            <ol>
+                <li>Brabus</li>
+            </ol>
+        </li>
+
+    </ul>
+</body>
+</html>
